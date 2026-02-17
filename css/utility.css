@@ -1,0 +1,57 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 4px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Background of scrollbar track */
+::-webkit-scrollbar-track {
+    background: #111;       /* Dark background */
+}
+
+/* Draggable scroll thumb */
+::-webkit-scrollbar-thumb {
+    background: #333;       /* Dark grey thumb */
+    border-radius: 10px;
+}
+
+/* Hover effect on thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: #444;       /* Slightly lighter on hover */
+}
